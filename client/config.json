@@ -1,0 +1,5 @@
+{
+  "networking": {
+    "serverUrl": "ws://localhost:3001"
+  }
+}
