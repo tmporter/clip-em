@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  mode: "development",
+  // mode: "development",
   entry: {
     main: path.resolve(__dirname, "./src/index.ts"),
   },
@@ -21,7 +21,6 @@ module.exports = {
     path: path.resolve(__dirname, "./dist"),
     filename: "server.js",
     clean: true,
-    publicPath: "/",
     globalObject: "this",
   },
 };
