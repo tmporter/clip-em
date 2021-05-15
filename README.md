@@ -18,16 +18,17 @@ Clip 'em, Dum!
 
 # 🐛 BUGS
 
-- [client] phantom cards appearing for some reason
-- [client] pointer cursor not working
-- [client] button hover states not working properly
 
 # 📌 DOING
 
 - figure out how to host this monstrocity
+  - Split project into two separate repos to appease Heroku???
 
 # ✅ DONE
 
+- [bug] phantom cards appearing for some reason (solution: Phaser 3.54 is broken, downgrade to 3.50)
+- [bug] pointer cursor not working
+- [bug] button hover states not working properly
 - find a more efficient way to structure `GameState.apply()`
 - [BUG] If a winner is marked, the pot is 0, and the "Next Hand" button is clicked, the winner's cash is set to null.
 - persist game state event stream to disk
