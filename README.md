@@ -21,7 +21,7 @@ Clip 'em, Dum!
 
 # 📌 DOING
 
-- figure out how to host this monstrocity
+- figure out how to host this monstrocity 
   - Split project into two separate repos to appease Heroku???
 
 # ✅ DONE
